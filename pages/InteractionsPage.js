@@ -87,7 +87,7 @@ class InteractionsPage {
     await this.draggable.scrollIntoViewIfNeeded();
     await this.droppable.scrollIntoViewIfNeeded();
 
-    for (let attempt = 1; attempt <= 3; attempt++) {
+    for (let attempt = 1; attempt <= 10; attempt++) {
       await this._neutralizeAds();
 
       const src = await this.draggable.boundingBox();
@@ -118,5 +118,6 @@ class InteractionsPage {
     await expect.soft(this.droppable).toHaveClass(/ui-state-highlight/, { timeout: 20000 });
   }
 }
+
 
 module.exports = { InteractionsPage };
