@@ -1,0 +1,30 @@
+{
+  "practiceFormUser": {
+    "firstName": "Alphi",
+    "lastName": "Shahrin",
+    "email": "arpy123@example.com",
+    "age": "27",
+    "salary": "5000",
+    "department": "QA",
+    "gender": "Female",
+    "mobile": "0123455678",
+    "dateOfBirth": "15 Feb 1996",
+    "subjects": [
+      "Maths"
+    ],
+    "hobbies": [
+      "Music"
+    ],
+    "currentAddress": "Dhaka, Bangladesh",
+    "state": "NCR",
+    "city": "Delhi"
+  },
+  "webTablesUser": {
+    "firstName": "Alphi",
+    "lastName": "Shahrin",
+    "email": "arpy123@test.com",
+    "age": "27",
+    "salary": "5000",
+    "department": "QA"
+  }
+}
